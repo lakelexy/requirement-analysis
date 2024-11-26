@@ -124,6 +124,68 @@ ________________________________________
 
 •	Outcome: Approved and validated requirements that serve as the baseline for design and implementation.
 
+## Types of Requirements
+### Functional Requirements and Non-functional Requirements
+### 1. Functional Requirements
+Functional requirements define the specific behavior, tasks, or functions that the system must perform to meet its goals. For the booking management project described, examples include:
+
+#### i  Hotel Listing Management:
+o	Hotel managers can add, update, or delete hotel details (e.g., pricing, availability, and amenities) via a dedicated portal.
+
+o	Updates to hotel information should be reflected in the system and available to customers in real time.
+
+#### ii Search and Booking:
+o	Customers can search for hotels using filters like location, price range, ratings, and amenities.
+
+o	Customers can book hotels, with real-time updates on room availability.
+
+#### iii Payment Processing:
+o	Secure payment integration with third-party payment services for completing bookings.
+
+o	Customers should receive a confirmation notification after a successful payment.
+
+#### iv View Bookings:
+o	Users can view their current and past bookings.
+
+o	Managers can access booking details and associated customer information.
+
+#### v Notifications:
+o	Customers and managers should receive notifications for booking confirmations, cancellations, or promotional offers.
+________________________________________
+### 2. Non-functional Requirements
+Non-functional requirements define the system's performance, reliability, and operational constraints, ensuring it meets quality standards. Examples of this project include:
+
+#### i Scalability:
+o	The system must handle a high volume of concurrent user traffic during peak times, such as holiday seasons.
+
+o	Use of microservices and load balancers to distribute workload efficiently.
+
+#### ii Performance:
+o	Search queries should return results within 2 seconds.
+
+o	Booking confirmation must be processed and acknowledged within 5 seconds.
+
+#### iii Availability:
+o	The system should maintain 99.9% uptime to ensure continuous access for users globally.
+
+o	Implement redundancy in servers and databases to prevent downtime.
+
+#### iv Security:
+o	Customer data, including payment information, must be protected using encryption protocols (e.g., SSL/TLS).
+
+o	Ensure compliance with GDPR or other relevant data protection regulations.
+
+#### v Data Management:
+o	Use Redis for caching frequently accessed data to reduce database load and response times.
+
+o	Archive old booking data in Cassandra to optimize primary database performance while retaining access for analytics.
+
+#### vi Usability:
+o	Both customer and manager portals should have intuitive interfaces accessible across devices (mobile, desktop, etc.).
+
+
+
+
 
 
 
