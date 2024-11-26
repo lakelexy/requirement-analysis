@@ -56,7 +56,75 @@ Misunderstandings or missing requirements discovered later in the development pr
 ________________________________________
 3. Facilitates Effective Project Planning
 A detailed requirement analysis helps define a project's scope, timeline, and resource needs. It allows teams to create realistic estimates for design, development, and testing, ensuring smoother project execution.
-•	Example: If the scope of the project is unclear, developers might under- or overestimate the time and effort needed, leading to missed deadlines or was
+•	Example: If the scope of the project is unclear, developers might under- or overestimate the time and effort needed, leading to missed deadlines or wasted resources.
+
+## Key Activities in Requirement Analysis
+1. Requirement Gathering
+Purpose: To collect information about the needs, goals, and expectations of stakeholders.
+
+• Methods:
+
+  o	Conduct interviews with clients and end-users.
+
+  o	Distribute surveys or questionnaires to collect quantitative data.
+
+  o	Review existing systems, documents, or workflows.
+
+• Outcome: A broad set of raw requirements that reflect stakeholder inputs.
+________________________________________
+2. Requirement Elicitation
+•	Purpose: To refine and extract clear, actionable requirements through direct engagement with stakeholders.
+
+•	Techniques:
+
+  o	Workshops and brainstorming sessions for collaborative idea generation.
+
+  o	Observation of current workflows or systems in use.
+
+  o	Prototyping or mock-ups to clarify stakeholder needs.
+
+•	Outcome: Well-defined functional and non-functional requirements that can be understood by all stakeholders.
+________________________________________
+3. Requirement Documentation
+•	Purpose: To formally record requirements in a structured format for future reference and clarity.
+
+•	Documentation Tools:
+
+  o	Software Requirement Specifications (SRS): Comprehensive documents capturing all functional and non-functional requirements.
+
+  o	User stories or use case diagrams for user-focused requirements.
+
+  o	Requirement traceability matrices (RTM) to map requirements to design and testing.
+
+•	Outcome: A clear and accessible record of requirements that minimizes ambiguity.
+________________________________________
+4. Requirement Analysis and Modeling
+•	Purpose: To analyze and represent requirements in visual or structured formats to identify inconsistencies, redundancies, or gaps.
+
+•	Activities:
+
+  o	Identifying relationships between requirements (e.g., dependencies or conflicts).
+
+  o	Using tools like data flow diagrams (DFD), entity-relationship diagrams (ERD), or UML models to represent requirements.
+
+  o	Performing feasibility studies to ensure requirements are achievable.
+
+•	Outcome: A refined and structured set of requirements ready for design and development.
+________________________________________
+5. Requirement Validation
+•	Purpose: To confirm that the documented requirements are complete, feasible, and aligned with stakeholder expectations.
+
+•	Techniques:
+
+  o	Conducting formal reviews with stakeholders to validate requirements.
+
+  o	Cross-checking requirements against business objectives.
+
+  o	Using prototypes or simulations to verify alignment with user needs.
+
+•	Outcome: Approved and validated requirements that serve as the baseline for design and implementation.
+
+
 
 
 
