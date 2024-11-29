@@ -221,7 +221,7 @@ An external service that sends notifications to users.
 
 Below is the use case diagram representing the system:
 
-![Use Case Diagram for ALX Booking System](./alx-booking-uc.png)
+![Use Case Diagram for ALX Booking System](./alx-booking-uc.png.png)
 
 
 ## Importance of Acceptance Criteria in Requirement Analysis
