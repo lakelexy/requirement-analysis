@@ -183,6 +183,47 @@ o	Archive old booking data in Cassandra to optimize primary database performance
 #### vi Usability:
 o	Both customer and manager portals should have intuitive interfaces accessible across devices (mobile, desktop, etc.).
 
+## Use Case Diagrams
+A use case diagram is a visual representation of the interactions between users (actors) and a system. It illustrates the various use cases (functionalities) that the system provides and shows how different actors interact with these use cases. Use case diagrams are part of the Unified Modeling Language (UML) and are widely used in the requirements analysis phase of software development.
+________________________________________
+### Benefits of Use Case Diagrams
+1.	Clarity:
+Simplifies complex systems by visually summarizing functionalities and interactions.
+2.	Communication:
+Helps stakeholders (developers, clients, and users) understand system functionality and user interactions.
+3.	Requirement Validation:
+Ensures that all required functionalities are captured and linked to appropriate actors.
+4.	Foundation for Design:
+Serves as a blueprint for the design and development of the system.
+5.	Traceability:
+Links system requirements to user needs, aiding in validation and testing processes.
+________________________________________
+### Use Case Diagram for the Booking System
+#### Actors
+1.	Customer:
+A user who searches for hotels makes bookings and views their bookings.
+2.	Hotel Manager:
+A user who manages hotel information and views bookings.
+3.	Payment Gateway:
+An external system that processes payments.
+4.	Notification Service:
+An external service that sends notifications to users.
+#### Use Cases
+1.	Search Hotels: Customers search for hotels using filters like location and price.
+2.	Book Hotel: Customers select a hotel and make a booking.
+3.	Process Payment: The system integrates with a payment gateway to process transactions.
+4.	Receive Notifications: Both customers and hotel managers receive updates on bookings or offers.
+5.	View Bookings: Customers and managers access their booking history and details.
+6.	Manage Hotel Info: Hotel managers add or update hotel details like pricing and availability.
+7.	Archive Data: The system archives old booking data for performance optimization.
+
+### Use Case Diagram
+
+Below is the use case diagram representing the system:
+
+![Use Case Diagram for ALX Booking System](./alx-booking-uc.png)
+
+
 ## Importance of Acceptance Criteria in Requirement Analysis
 Acceptance Criteria are vital in Requirement Analysis because they serve as a clear benchmark to determine whether a feature or functionality meets stakeholder expectations. They define specific, measurable, and testable conditions that a feature must satisfy to be considered "done" or accepted by stakeholders. This ensures that all parties—developers, testers, and stakeholders—have a shared understanding of the feature's intended behavior and outcomes.
 ### Key Benefits:
